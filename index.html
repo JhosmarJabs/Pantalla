@@ -3,9 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Notion Dark Interface</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="app">
+        <header class="header">
+            <div class="profile">
+                <img src="/placeholder.svg?height=40&width=40" alt="Profile" class="profile-image">
+                <div class="profile-info">
+                    <h1>Notion Workspace</h1>
+                    <p class="email">email@example.com</p>
+                </div>
+                <button class="menu-dots">•••</button>
+            </div>
+        </header>
+
+        <nav class="back-nav">
+            <a href="#" class="back-link">Volver a la página</a>
+        </nav>
+
+        <main class="content">
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">✓</div>
+                    <h2>Daily Habits</h2>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🧠</div>
+                    <h2>Segundo Cerebro</h2>
+                </div>
+                <div class="card">
+                    <div class="card-icon">♪</div>
+                    <h2>Way Maker</h2>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <div class="sidebar-section">
+                    <h3>Privado</h3>
+                    <button class="menu-dots">•••</button>
+                    <button class="add-button">+</button>
+                </div>
+                <div class="sidebar-item">
+                    <span class="item-icon">🧠</span>
+                    <span>Segundo Cerebro</span>
+                    <button class="menu-dots">•••</button>
+                    <button class="add-button">+</button>
+                </div>
+                <div class="sidebar-item">
+                    <span class="item-icon">☕</span>
+                    <span>NOTION PARA DOCENTES</span>
+                    <button class="menu-dots">•••</button>
+                    <button class="add-button">+</button>
+                </div>
+            </div>
+        </main>
+
+        <footer class="nav-bar">
+            <button class="nav-button">🏠</button>
+            <button class="nav-button">🔍</button>
+            <button class="nav-button">📑</button>
+            <button class="nav-button">✏️</button>
+        </footer>
+    </div>
 </body>
 </html>
